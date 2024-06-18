@@ -1,0 +1,40 @@
+@media(max-width:630px){
+    body{
+       min-width: 100vw;
+       height: fit-content;
+       background-image: url(../images/background-resized.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+    }
+ 
+    .cabecalho h1 {
+       padding: 0 0.5em;
+       font-size: 0.7rem;
+       margin: 0.3em 0.5em;
+    }
+ 
+    .slider {
+       gap: 5%;
+    }
+    
+    .btn-seta {
+       width: 15%;
+    }
+ 
+    .lista-personagens {
+       width: 60%;
+       font-size: 1rem;
+    }
+ 
+    .nome{
+       font-size: 0.55em;
+       padding: 0.2em;
+       margin-right: 0;
+       text-align: center;
+    }
+ 
+    .curiosidades {
+       font-size: 0.5em;
+    }
+}
