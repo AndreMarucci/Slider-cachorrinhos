@@ -1,7 +1,6 @@
-@media(max-width:630px){
+@media(max-width:768px){
     body{
        min-width: 100vw;
-       height: fit-content;
        background-image: url(../images/background-resized.jpg);
        background-repeat: no-repeat;
        background-size: cover;
@@ -37,4 +36,11 @@
     .curiosidades {
        font-size: 0.5em;
     }
+}
+
+@media(max-width:1024px) and (min-width:769px){
+   .lista-personagens{
+      width: 50%;;
+   } 
+
 }
